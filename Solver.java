@@ -78,12 +78,8 @@ public class Solver {
 
             // check for actual PQ
             for (Board board1 : min.boardd.neighbors()) {
-                //   System.out.println("Neighbors is ");
-                // check the equals comparison for this
                 if (min.moves != 0 && AlreadyIsInSolution(min, board1)) continue;
                 searchNode search = new searchNode(board1, min.moves + 1, min);
-                //    System.out.println(search.boardd);
-                //    System.out.println("Priority is " + search.manPriority);
                 PQ.insert(search);
             }
 
@@ -128,8 +124,6 @@ public class Solver {
         do {
             stack.push(minimum.boardd);
             minimum = minimum.previous;
-
-            // check thisssssss
         }
         while (minimum != null);
         return stack;
