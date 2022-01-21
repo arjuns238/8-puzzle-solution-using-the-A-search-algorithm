@@ -1,7 +1,7 @@
 /* *****************************************************************************
- *  Name:
- *  Date:
- *  Description:
+ *  Name: Arjun Sriram
+ *  Date: 1/21/2022
+ *  Description: The Board class creates the board datatype with helper instance methods and instance variable for the Solver class to work on.
  **************************************************************************** */
 
 import edu.princeton.cs.algs4.In;
