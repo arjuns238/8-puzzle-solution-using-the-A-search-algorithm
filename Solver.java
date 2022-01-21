@@ -73,8 +73,6 @@ public class Solver {
         do {
             minTwin = PQtwin.delMin();
             min = PQ.delMin();
-            // System.out.println(min.boardd);
-
 
             // check for actual PQ
             for (Board board1 : min.boardd.neighbors()) {
