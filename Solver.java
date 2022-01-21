@@ -1,7 +1,7 @@
 /* *****************************************************************************
- *  Name:
- *  Date:
- *  Description:
+ *  Name: Arjun Sriram
+ *  Date: 1/21/2022
+ *  Description: The Solver class computes the solution to the board using the A * search algorithm
  **************************************************************************** */
 
 import edu.princeton.cs.algs4.In;
